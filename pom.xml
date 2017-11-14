@@ -17,10 +17,10 @@
             <version>0.9.3</version>
             <configuration>
     <dbHostName>mongodb</dbHostName>
-    <dbName>test</dbName>
+    <dbName>sampledb</dbName>
     <dbAuth>true</dbAuth>
-    <username>foo</username>
-    <password>bar</password>
+    <username>user</username>
+    <password>pwd</password>
     <changeLogFile>src/main/mongeez/mongeez.xml</changeLogFile>
 </configuration>
         </plugin>
