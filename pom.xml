@@ -16,9 +16,9 @@
             <artifactId>mongeez-maven-plugin</artifactId>
             <version>0.9.3</version>
             <configuration>
-    <dbHostName>mongodb</dbHostName>
+    <dbHostName>mongo</dbHostName>
     <dbName>sampledb</dbName>
-    <dbAuth>true</dbAuth>
+    <dbAuth>false</dbAuth>
     <username>user</username>
     <password>pwd</password>
     <changeLogFile>src/main/mongeez/mongeez.xml</changeLogFile>
