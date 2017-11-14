@@ -16,9 +16,13 @@
             <artifactId>mongeez-maven-plugin</artifactId>
             <version>0.9.3</version>
             <configuration>
-                <dbName>test</dbName>
-                <changeLogFile>src/main/mongeez/mongeez.xml</changeLogFile>
-            </configuration>
+    <dbHostName>mongodb</dbHostName>
+    <dbName>test</dbName>
+    <dbAuth>true</dbAuth>
+    <username>foo</username>
+    <password>bar</password>
+    <changeLogFile>src/main/mongeez/mongeez.xml</changeLogFile>
+</configuration>
         </plugin>
     </plugins>
 </build>
